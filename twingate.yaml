@@ -6,16 +6,15 @@ metadata:
   description: Secure access solution for our infrastructure
   annotations:
     backstage.io/techdocs-ref: dir:.
-    twingate.com/url: https://yourcompany.twingate.com
     twingate.com/cost: "$99/month"
-spec:
-  type: service
-  lifecycle: production
-  owner: devops
   links:
-    - url: https://herculesai.twingate.com
+    - url: https://yourcompany.twingate.com
       title: Twingate Portal
       icon: link
     - url: https://billing.twingate.com
       title: Billing Info
       icon: dollar-sign
+spec:
+  type: service
+  lifecycle: production
+  owner: devops
