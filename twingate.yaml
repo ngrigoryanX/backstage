@@ -13,7 +13,7 @@ spec:
   lifecycle: production
   owner: devops
   links:
-    - url: https://yourcompany.twingate.com
+    - url: https://herculesai.twingate.com
       title: Twingate Portal
       icon: link
     - url: https://billing.twingate.com
