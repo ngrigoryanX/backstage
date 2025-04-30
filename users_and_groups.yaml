@@ -19,7 +19,7 @@ metadata:
 spec:
   profile:
     displayName: Narek
-    email: narek@example.com
+    email: ngrigoryan@zerosystems.com
   memberOf: [devops]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -29,7 +29,7 @@ metadata:
 spec:
   profile:
     displayName: Hayk
-    email: hayk@example.com
+    email: havetisyan@zerosystems.com
   memberOf: [devops]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -39,7 +39,7 @@ metadata:
 spec:
   profile:
     displayName: Arsen
-    email: arsen@example.com
+    email: asahakyan@zerosystems.com
   memberOf: [devops]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -49,5 +49,5 @@ metadata:
 spec:
   profile:
     displayName: Vahan
-    email: vahan@example.com
+    email: varshakyan@zerosystems.com
   memberOf: [devops]
