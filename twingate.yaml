@@ -13,7 +13,7 @@ metadata:
       icon: link
     - url: https://billing.twingate.com
       title: Billing Info
-      icon: dollar-sign
+      icon: credit_card
 spec:
   type: service
   lifecycle: production
