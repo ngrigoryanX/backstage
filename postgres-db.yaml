@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: postgres-db
+  title: Production PostgreSQL Database
+  description: Primary database for internal applications
+  tags:
+    - postgres
+    - database
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    db.host: "postgres.prod.internal"
+    db.port: "5432"
+    db.cost: "$120/month"
+spec:
+  type: database
+  owner: devops
+  lifecycle: production
+  system: internal-services
+  dependencyOf:
+    - component:default/twingate
